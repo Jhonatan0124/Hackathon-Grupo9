@@ -183,3 +183,71 @@ nav h1 {
   text-align: center;
   align-items: center;
 }
+
+/* Estilos generales para la sección del carrito */
+.seccion-carrito {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: grid;
+    padding: 30px;
+    width: 80%;
+    max-width: 1100px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;    
+    margin: auto;
+}
+
+.cont-carrito {
+    border: 1px solid #ccc;
+    position: relative;    
+    height: auto; 
+    padding: 20px;
+    background-color: #fff;
+   
+}
+
+/* Título del carrito */
+.cont-carrito h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Cantidad de productos */
+.cantidad-productos {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.nombre-producto {
+    font-size: 16px;
+    color: #333;
+}
+
+.precio-producto {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Estilos para el precio total */
+.precio-total {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
