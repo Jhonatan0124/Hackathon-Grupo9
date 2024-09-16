@@ -1,22 +1,188 @@
-section {
-    height: 100vh;     /*altura 100% area de la ventana del navegador*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  section > div {
-    width: 500px;
-    height: 600px;
-    margin: 20px;
-    background: rgb(105, 250, 165);
-    overflow: hidden;    /*cortar el contenido que excede el tamaño del contenedor*/
-  }
-  
-  img {
-    width: 400px;
-    height: 400px;
-  }
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-size: 100%;
+  list-style-type: none;
+}
+
+main{
+  width: 100%;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  z-index: 1000px;
+}
+
+.logo {
+  max-width: 65px;
+  /* tamaño del logo */
+}
+
+nav {
+  width: 100%;
+  height: 150px;
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+  background-color: #ccc;
+  color: black;
+  box-shadow: inset 0 10px 20px -5px rgba(54, 54, 54, 0.315);
+}
+
+nav h1 {
+  font-size: 1.2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: .2rem;
+}
+
+.lista-productos {
+  margin-top: 10px;
+  ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+}
+
+.lista-item a {
+  color: black;
+  font-weight: 400;
+}
+
+.lista-item a:visited {
+  color: black;
+}
+
+.lista-item a:hover {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.lista-item a:active {
+  font-weight: 700;
+}
+
+.banners {
+  width: 100%;
+  padding: 10px 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.img-banner {
+  width: 65%;
+  min-height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  background-image: url(./img-products/banner.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+  bottom: 50px;
+}
+
+.img-banner h2 {
+  background-color: white;
+  width: 400px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+
+.img-banner a {
+  width: 100px;
+  padding: 10px;
+  background-color: #511215;
+  color: white;
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+.slogan {
+  min-height: 300px;
+  padding: 50px;
+  display: flex;
+  text-align: right;
+  align-items: end;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: white;
+  border: 1px solid #ccc;
+  position: relative;
+  bottom: 50px;
+}
+
+.slogan h2 {
+  letter-spacing: .1rem;
+  width: 150px;
+}
+
+.products {
+  width: 70%;
+  padding: 10px 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.products article {
+  width: 20vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.product-item {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.product-item img {
+  max-width: 75%;
+}
+
+.info-product {
+  font-size: 0.8rem;
+  font-family: "Inter";
+  text-align: center;
+  align-items: center;
+}
 
   .progress-bar {
     position: fixed;
