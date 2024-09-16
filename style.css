@@ -1,0 +1,29 @@
+section {
+    height: 100vh;     /*altura 100% area de la ventana del navegador*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section > div {
+    width: 500px;
+    height: 600px;
+    margin: 20px;
+    background: rgb(105, 250, 165);
+    overflow: hidden;    /*cortar el contenido que excede el tamaño del contenedor*/
+  }
+  
+  img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .progress-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: blue;
+    bottom: 50px;
+    transform: scaleX(0);
+  }
