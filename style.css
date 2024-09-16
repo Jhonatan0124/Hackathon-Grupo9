@@ -196,7 +196,8 @@ nav h1 {
     gap: 30px;
     justify-content: center;
     align-items: center;    
-    margin: auto;
+    margin: auto ;
+
 }
 
 .cont-carrito {
@@ -243,7 +244,7 @@ nav h1 {
     color: #666;
 }
 
-/* Estilos para el precio total */
+
 .precio-total {
     text-align: right;
     margin-top: 20px;
@@ -251,3 +252,63 @@ nav h1 {
     font-weight: bold;
     color: #333;
 }
+
+/* Footer inicio */
+
+
+footer {
+    position: relative; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#ccc;
+    color: #511215;
+    padding: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+/*  margen al final del main */
+main {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 100px; /* Ajusta este valor según el tamaño del footer */
+}
+
+/* centrar Footer */
+.footer-content {
+    width: 100%;
+    font-size: 36px; 
+    text-align: center;
+    padding: 10px; 
+}
+
+/* logo del footer */
+.logo1 {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Estilos para los íconos de redes sociales */
+.iconos-redes {
+    display: flex;            
+    gap: 15px;                
+    justify-content: center; 
+}
+
+.iconos-redes a {
+    color: #fff;             
+    font-size: 36px;         
+    text-decoration: none;   
+    transition: color 0.3s;  
+}
+
+.iconos-redes a:hover {
+    color: #511215;             
+}
+
+
+
