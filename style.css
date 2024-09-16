@@ -184,12 +184,12 @@ nav h1 {
   align-items: center;
 }
 
-  .progress-bar {
+.progress-bar {
     position: fixed;
     left: 0;
     right: 0;
-    height: 5px;
-    background: blue;
+    height: 10px;
+    background: #bc3a41;
     bottom: 50px;
     transform: scaleX(0);
-  }
+}
