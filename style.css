@@ -1,0 +1,127 @@
+*, *:after, *:before {     
+  margin: 0;     
+  padding: 0;     
+  box-sizing: border-box;     
+  text-decoration: none; 
+}
+
+html {
+  font-size: 14px;
+}
+
+body{
+  font-size: 100%;     
+  list-style-type: none;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+  height: 150px;
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+  background-color: #ccc;
+  color: black;
+}
+
+nav h1 {
+  font-size: 1.2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: .2rem;
+}
+
+.lista-productos {
+  margin-top: 10px;;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  font-family: "Inter", sans-serif; 
+  font-size: 0.8rem; 
+}
+
+.lista-item a {
+  color: black;
+  font-weight: 400;
+}
+
+.lista-item a:visited {
+  color: black;
+}
+
+.lista-item a:hover {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.lista-item a:active {
+  font-weight: 700;
+}
+
+.banners {
+  width: 100%;
+  padding: 10px 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.img-banner {
+  width: 65%;
+  min-height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  background-image: url(./img-products/Agregar\ un\ título.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+  bottom: 50px;
+}
+
+.img-banner h2 {
+  background-color: white;
+  width: 400px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+
+.img-banner a {
+  width: 100px;
+  padding: 10px;
+  background-color: #511215;
+  color: white;
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+.slogan {
+  min-height: 300px;
+  padding: 50px;
+  display: flex;
+  text-align: right;
+  align-items: end;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: white;
+  border: 1px solid #ccc;
+  position: relative;
+  bottom: 50px;
+}
+
+.slogan h2 {
+  letter-spacing: .1rem;
+  width: 150px;
+}
+
