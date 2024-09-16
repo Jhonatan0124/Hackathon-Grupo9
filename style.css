@@ -148,23 +148,25 @@ nav h1 {
 }
 
 .products {
-  width: 70%;
-  padding: 10px 45px;
+  width: 100%;
+  padding: 10px 40px;
+  margin: 0 45px;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .products article {
-  width: 20vw;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
-  justify-content: center;
+  justify-content: left;
 }
 
 .product-item {
-  width: 100%;
+  width: 20vw;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -178,10 +180,29 @@ nav h1 {
 }
 
 .info-product {
-  font-size: 0.8rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1rem;
   font-family: "Inter";
   text-align: center;
   align-items: center;
+}
+
+.info-product a {
+  width: 100px;
+  padding: 10px;
+  background-color: #bc3a41;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 50px;
+}
+
+.info-product a:hover {
+  background-color: white;
+  border: 1px solid #bc3a41;
+  color: #bc3a41;
 }
 
 /* Estilos generales para la sección del carrito */
